@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font1: 'Passion One', cursive;
+    --font2: 'Caveat', cursive;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 70px;
+}
+
+header h1 {
+    margin: 2px;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+header p {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section > p {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin: 3px;
+}
