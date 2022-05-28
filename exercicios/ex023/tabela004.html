@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            width: 180px;
+            height: 20px;
+        }
+
+        td {
+            text-align: left;
+            border: 1px solid black;
+            padding: 5px;
+            height: 10px;
+        }
+
+        td.filmes {
+            text-align: center;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td class="filmes">Allen</td>
+                <td class="filmes">Rambo</td>
+                <td class="filmes">Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td class="filmes">Hulk</td>
+                <td class="filmes">Inception</td>
+                <td class="filmes">Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td class="filmes">Oblivion</td>
+                <td class="filmes">Matrix</td>
+                <td class="filmes">Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td class="filmes">Intocáveis</td>
+                <td class="filmes">Amnésia</td>
+                <td class="filmes">Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lorenço</td>
+                <td class="filmes">Wall-E</td>
+                <td class="filmes">Oldboy</td>
+                <td class="filmes">Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td class="filmes">Star Wars S</td>
+                <td class="filmes">Taxi Driver</td>
+                <td class="filmes">Toy Story</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
